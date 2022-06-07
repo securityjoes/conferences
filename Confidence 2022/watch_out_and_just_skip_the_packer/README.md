@@ -67,7 +67,7 @@ Confidence Conference 2022 Workshop, Krakow - Poland
     
     UPX is a substitution packer, that means it replaces some of the contents of the original imaged loaded by the OS in memory, the diagram that explains this behaviour is displayed below.
     
-    ![image](https://user-images.githubusercontent.com/8562692/140294933-d12eaed3-06e3-467f-9461-254d4754d4c9.png)
+    ![image](https://user-images.githubusercontent.com/8562692/172319593-4930f576-18b8-46ba-8bc9-85d82c5b5809.png)
     
     In this workshop, we are going to used UPX to learn one of the key concepts of unpacking; the famous *tail jump*. By definition, the *tail jump* is the instruction in which the packer execution ends and the control flow is redirected to the entry point of the unpacked sample. This jump can be implemented in several different ways, some of them are listed below:
     * `JMP OEP_ADDRESS`
@@ -119,7 +119,7 @@ Confidence Conference 2022 Workshop, Krakow - Poland
     
     For this workshop we are going to analyze a custom packer used by the REvil gang to protect their ransomware. This packer can be classified as a hybrid packer because during its execution it injects several pieces of shellcode to finally replace the complete memory image of the PE. A diagram that explains this kind of packer is shown below. 
 
-![image](https://user-images.githubusercontent.com/8562692/140280380-e51f08ad-a176-4f48-aa8f-a4da32edbb56.png)
+![image](https://user-images.githubusercontent.com/8562692/172320227-0bb75da9-2ec3-4276-ba5d-5544668b50f0.png)
      
 2. Finding first injected shellcode (LocalAlloc)
 
