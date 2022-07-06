@@ -1,4 +1,4 @@
-# Watch Out! And just skip the packer Workshop
+# Workshop: Watch Out! And just skip the packer 
 
 ## Requirements
 * Virtual machine: https://www.dropbox.com/s/hpsx2obufomsi9a/win10-x64-lab.zip?dl=0
