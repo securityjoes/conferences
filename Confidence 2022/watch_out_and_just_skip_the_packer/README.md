@@ -1,6 +1,4 @@
-# Watch Out! And just skip the packer
-
-Confidence Conference 2022 Workshop, Krakow - Poland
+# Watch Out! And just skip the packer Workshop
 
 ## Requirements
 * Virtual machine: https://www.dropbox.com/s/hpsx2obufomsi9a/win10-x64-lab.zip?dl=0
